@@ -1,3 +1,4 @@
+//这是原作者写的一个例子
 #include <stdio.h>
 #include <winsock.h>
 
