@@ -7,3 +7,9 @@
 
 感谢M.Fauzikamil Zainuddin，虽然我不知道他是谁。
 目标是一个可编程角本控制加密，翻墙小小程。
+
+编译环境：
+* 首先，先装编程软件吧。  
+http://sourceforge.net/projects/codeblocks/files/Binaries/16.01/Windows/codeblocks-16.01mingw-setup.exe  
+我装的是这个，自带g++编译器的。
+* 菜单Settings->Compiler...->选Linker settings->在Link libraries:里选Add（编译缺少两个链库libws2_32.a，libwsock32.a都在...CodeBlocks\MinGW\lib里）（可能是因为编译器版本不同吧，所以上面那个stackoverflow上讲的文件名不一样，这个不重要啦），再编译->通过。执行。程序正常执行（看到了服务器连接成功，反回服务器网页http内容，因为是80端口嘛，网页服务端口啦，以后再说改别的端口的问题啦）。
