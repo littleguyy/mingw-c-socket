@@ -18,3 +18,5 @@ http://sourceforge.net/projects/codeblocks/files/Binaries/16.01/Windows/codebloc
 
 一个人造轮子不想研究了
 没限制，拿走玩吧。
+2017/12/8
+加了个python3.X以上版本写的http代理原理程序。有兴趣的可以参考参考，只实现了核心原理。
