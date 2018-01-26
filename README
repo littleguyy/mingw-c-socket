@@ -5,5 +5,20 @@
 
  This is my example/exercise code for socket C socket programming using MinGW
 
+
 感谢M. Fauzilkamil Zainuddin对菜鸟的起蒙代码。
 我打算以此代码为始，开发一个可编程角本翻墙软件。
+
+编译环境：
+首先，先装编程软件吧。  
+http://sourceforge.net/projects/codeblocks/files/Binaries/16.01/Windows/codeblocks-16.01mingw-setup.exe  
+我装的是这个，自带g++编译器的。
+菜单Settings->Compiler...->选Linker settings->在Link libraries:
+里选Add（编译缺少两个链库libws2_32.a，libwsock32.a都在...CodeBlocks\MinGW\lib里），
+再编译->通过。执行。程序正常执行（看到了服务器连接成功，反回服务器网页http内容，因为是80端口嘛，网页服务端口啦，以后再说改别的端口的问题啦）。
+
+一个人造轮子不想研究了
+没限制，拿走玩吧。
+2017/12/8
+加了个python3.X以上版本写的http代理原理程序。有兴趣的可以参考参考，只实现了核心原理。
+
