@@ -5,8 +5,9 @@
 
  This is my example/exercise code for socket C socket programming using MinGW
 
-感谢M.Fauzikamil Zainuddin，虽然我不知道他是谁。
-目标是一个可编程角本控制加密，翻墙小小程。
+
+感谢M. Fauzilkamil Zainuddin对菜鸟的起蒙代码。
+我打算以此代码为始，开发一个可编程角本翻墙软件。
 
 编译环境：
 首先，先装编程软件吧。  
@@ -20,3 +21,4 @@ http://sourceforge.net/projects/codeblocks/files/Binaries/16.01/Windows/codebloc
 没限制，拿走玩吧。
 2017/12/8
 加了个python3.X以上版本写的http代理原理程序。有兴趣的可以参考参考，只实现了核心原理。
+
