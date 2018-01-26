@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1509802175 source:c:\users\administrator\documents\fanqiang\main.cpp
+1516984964 source:c:\users\administrator\documents\fanqiang\main.cpp
+	<malloc.h>
 	<stdio.h>
 	<winsock.h>
 
